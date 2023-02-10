@@ -1,12 +1,12 @@
 # Olá, este repositório é destinado para o Bootcamp JAVA DEVELOPER
 
-#1 PREPARA-SE PARA A JORNADA
+<h2>#1 PREPARA-SE PARA A JORNADA</h2>
 
-- Conheça as Oportunidades da DIO
-- Seja Protagonista Neste Bootcamp
-- Introdução ao Desenvolvimento Moderno de Software
-- Aula Inaugural
+- [x] Conheça as Oportunidades da DIO
+- [x] Seja Protagonista Neste Bootcamp
+- [x] Introdução ao Desenvolvimento Moderno de Software
+- [ ] Aula Inaugural
 
-#2 CONHECENDO A LINGUAGEM DE PROGRAMAÇÃO JAVA
+<h2>#2 CONHECENDO A LINGUAGEM DE PROGRAMAÇÃO JAVA</h2>
 
-- Dominando IDEs Java
+- [ ] Dominando IDEs Java
