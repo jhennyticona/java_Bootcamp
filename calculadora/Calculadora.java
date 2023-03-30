@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculadora {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		/*Scanner scan = new Scanner(System.in);
 		double a, b;
 		System.out.println("Digite o primeiro valor");
 		a = scan.nextInt();
@@ -35,6 +35,30 @@ public class Calculadora {
 
 	public static double multiplicacao(double a, double b) {
 		return a * b;
+	}*/
+
+	Scanner scan = new Scanner(System.in);
+	    
+        System.out.println("custofabrica");
+        int custoFabrica = scan.nextInt();
+        System.out.println("porcentagem");
+	    int porcentagemDistribuidor = scan.nextInt();
+        System.out.println("imposto");
+	    int PercentualImpostos = scan.nextInt();
+
+            int custoConsumidor;
+     
+            int Distribuidor;
+            int ValorImpostos;
+ 
+        
+ 
+        Distribuidor = (custoFabrica * porcentagemDistribuidor) / 100;
+        ValorImpostos = (custoFabrica *PercentualImpostos)/100;
+        custoConsumidor = custoFabrica + Distribuidor + ValorImpostos;
+        System.out.println(Distribuidor);
+        System.out.println(ValorImpostos);
+        System.out.println(custoConsumidor);
 	}
 
 }
